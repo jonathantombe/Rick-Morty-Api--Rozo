@@ -15,8 +15,8 @@ function App() {
 
   return (
     <div className="container mx-auto">
-      <div className="flex justify-center my-4">
-        <h1 className='text-3xl font-bold '>rick and morty api</h1>
+      <div className="flex flex-col items-center my-4">
+        <h1 className='text-3xl font-bold mb-4  flex-direction: column;'>Rick and Morty Api</h1>
         <button
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-4 rounded"
           onClick={handleGetApi}
